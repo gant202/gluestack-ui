@@ -13,9 +13,9 @@ import { AppProvider, CodePreview, Text } from '@gluestack/design-system';
 
 # Customizing Tokens
 
-`@gluestack-ui/themed` ships with default theme which can found in `config.theme`. It has Colors, Aliases, Typography, Size, Opacity, Shadows, Breakpoint tokens. You can override any of these tokens.
+`@gluestack-ui/themed` ships with default theme which can found in `config.theme`. It has Colors, Aliases, Typography, Size, Opacity, Shadows and Breakpoint tokens. You can customize all the tokens of the theme in `config`.
 
-You can customize all the tokens of the theme in `config`. For this recipe we will update primary color token of the theme. In order to change the primary color of the theme, first create a file `gluestack-ui.config.ts`. In this file you need to update the token of `colors` primary. we can do that using createConfig as demonstrated below. Don't forget to add type definition for the new token at the end.
+For this recipe we will update primary color token of the theme. In order to change the primary color of the theme, first create a file `gluestack-ui.config.ts`. In this file you need to update the token of `colors` primary. we can do that using createConfig as demonstrated below. Don't forget to add type definition for the new token at the end.
 
 ```js
 //gluestack-ui.config.ts
